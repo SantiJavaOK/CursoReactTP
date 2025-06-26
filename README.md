@@ -15,14 +15,15 @@ Proyecto final del curso de React. Incluye manejo de rutas, componentes reutiliz
 
 ## 📂 Estructura básica del proyecto:
 
+```plaintext
 CursoReactTP/
 ├── public/
 ├── src/
-│ ├── components/
-│ ├── pages/
-│ ├── services/
-│ ├── App.jsx
-│ └── main.jsx
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   ├── App.jsx
+│   └── main.jsx
 ├── .gitignore
 ├── package.json
 └── vite.config.js

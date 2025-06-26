@@ -15,3 +15,24 @@ Proyecto final del curso de React. Incluye manejo de rutas, componentes reutiliz
 
 ## 📂 Estructura básica del proyecto:
 
+CursoReactTP/
+├── public/
+├── src/
+│ ├── components/
+│ ├── pages/
+│ ├── services/
+│ ├── App.jsx
+│ └── main.jsx
+├── .gitignore
+├── package.json
+└── vite.config.js
+
+## Correr el proyecto local:
+-- Primero instalar
+npm install
+
+-- luego correr
+npm run dev
+
+El proyecto quedará corriendo en:
+👉 http://localhost:5173

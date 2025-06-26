@@ -1,15 +1,8 @@
-# CursoReactTP 🚀
+# 📘 CursoReactTP
 
-Proyecto final del curso de React. Incluye manejo de rutas, componentes reutilizables, llamadas a servicios externos y uso de Material UI.
-
----
-
-## 🛠️ Tecnologías usadas:
-
-- React
-- Vite
-- Material UI (MUI)
-- React Router DOM
+Proyecto de práctica final del curso de React.  
+Incluye funcionalidades como gestión de usuarios, productos y autenticación de login.  
+Se utiliza **Vite** como bundler y **Material UI** como librería de componentes de interfaz.
 
 ---
 
@@ -19,21 +12,11 @@ Proyecto final del curso de React. Incluye manejo de rutas, componentes reutiliz
 CursoReactTP/
 ├── public/
 ├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── services/
-│   ├── App.jsx
-│   └── main.jsx
-├── .gitignore
-├── package.json
-└── vite.config.js
-
-## Correr el proyecto local:
--- Primero instalar
-npm install
-
--- luego correr
-npm run dev
-
-El proyecto quedará corriendo en:
-👉 http://localhost:5173
+│   ├── components/      # Componentes reutilizables como Header, ConfirmDialog, Login, etc.
+│   ├── pages/           # Vistas principales: Inicio, Usuarios, Productos, etc.
+│   ├── services/        # Lógica de acceso a servicios externos (APIs)
+│   ├── App.jsx          # Configuración de rutas y estructura principal
+│   └── main.jsx         # Punto de entrada de la aplicación
+├── .gitignore           # Archivos/Carpetas que no se suben al repo (por ejemplo node_modules)
+├── package.json         # Dependencias y scripts de npm
+└── vite.config.js       # Configuración de Vite
